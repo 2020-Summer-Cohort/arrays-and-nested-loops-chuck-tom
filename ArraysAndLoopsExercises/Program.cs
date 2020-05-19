@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 
 namespace ArraysAndLoopsExercises
 {
@@ -68,8 +69,21 @@ namespace ArraysAndLoopsExercises
             Console.Clear();
             Console.WriteLine("SORT THE NUMBERS\n");
 
-            // Enter your solution here
+            // Enter yor soulution here
+            Console.WriteLine("Enter a number");
+            string userNumber1 = Console.ReadLine();
+            string userNumber2 = Console.ReadLine();
+            string userNumber3 = Console.ReadLine();
+            string userNumber4 = Console.ReadLine();
+            string userNumber5 = Console.ReadLine();
+            string userNumber6 = Console.ReadLine();
+            string userNumber7 = Console.ReadLine();
+            string userNumber8 = Console.ReadLine();
+            string userNumber9 = Console.ReadLine();
+            string userNumber10 = Console.ReadLine();
 
+            string[] userNumberList = { userNumber1, userNumber2, userNumber3, userNumber4, userNumber5, userNumber6, userNumber7, userNumber8, userNumber9, userNumber10};
+            Console.WriteLine($"first and last numbers are {userNumberList[0]}  and  {userNumberList[9]}"); 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
         }
